@@ -1,0 +1,2 @@
+<?php defined('INSYSVIEW') or exit('Access Invalid!');?>
+<iframe frameborder='0' height="670px" width="910px" scrolling="auto" src="index.php?app=store_goods_online&feiwa=edit_body_ajax&goods_id=<?php echo $_GET['goods_id']?>"></iframe>

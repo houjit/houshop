@@ -1,0 +1,1 @@
+<?php defined('INSYSVIEW') or exit('Access Invalid!');?><style type="text/css">.feiwa-s-bdc-layout {display: none;}</style>

@@ -1,0 +1,634 @@
+@charset "utf-8";.saleP{font-weight:600;color:#F32613;vertical-align:middle}
+.feiwa-s-main{min-height:500px;margin:20px 0;background:#fff;position:relative;z-index:2}
+.feiwa-s-main .feiwa-ss-info{display:block}
+.feiwa-ss-lal{width:210px;display:block}
+.feiwa-ss-lal .title{font-size:12px;font-weight:600;line-height:20px;background-color:#f5f5f5;display:block;padding:5px 10px;border-bottom:solid 1px #eee}
+.ownmall .feiwa-ss-lal .title{margin:1px}
+.feiwa-ss-lal .content{width:190px;margin:0 auto}
+.feiwa-ss-lal .content ul{font-size:0;word-spacing:-1em}
+.ownmall .feiwa-ss-lal .content ul{padding-top:10px}
+.feiwa-ss-lal .content ul li{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;width:95px}
+.feiwa-ss-lal .content ul li .goods-pic{width:60px;height:60px;margin:5px auto}
+.ownmall .feiwa-ss-lal .content ul li .goods-pic{margin:10px auto}
+.feiwa-ss-lal .content ul li .goods-pic a{background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:60px;height:60px;border:1px solid transparent;overflow:hidden}
+.feiwa-ss-lal .content ul li .goods-pic a:hover{border-color:#F32613}
+.feiwa-ss-lal .content ul li .goods-pic a img{max-width:60px;max-height:60px;margin-top:expression(60-this.height/2)}
+.feiwa-ss-lal .content ul li .goods-price{font-weight:600;text-align:center;color:#F32613}
+.feiwa-item-pics{background-color:#FFF;position:absolute;z-index:99;top:0;left:0}
+.feiwa-item-pics .gallery_wrap{height:400px;width:370px;position:relative;overflow:hidden}
+.feiwa-item-pics .gallery{position:absolute;overflow:hidden;opacity:1;height:360px;width:360px;}
+.feiwa-item-pics .gallery img{width:360px;height:360px}
+.feiwa-item-pics .place_gallery{margin-left:-180px;top:4%;left:50%}
+.feiwa-item-pics img{display:block;-ms-interpolation-mode:bicubic}
+.feiwa-item-pics .controller_wrap{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#B2FFFFFF', endColorstr='#B2FFFFFF');background:rgba(255,255,255,.7);padding:0;position:absolute;bottom:-42px}
+.feiwa-item-pics .controller{width:360px;height:72px;position:relative;overflow:hidden}
+.feiwa-item-pics .controller ul{font-size:0;width:100%;position:absolute;top:0;left:0}
+.feiwa-item-pics .controller li{vertical-align:middle;letter-spacing:normal;word-spacing:normal;display:inline-block;width:72px}
+.feiwa-item-pics .controller img{max-width:58px;max-height:58px;margin-top:expression(58-this.height/2);text-align:center;vertical-align:middle;display:table-cell;padding:1px;border:1px solid #EEE;overflow:hidden}
+.feiwa-item-pics .controller .current img{padding:0;border-width:2px;border-color:#F32613}
+.cloudzoom-lens{width:30px;height:30px;border:1px solid #eee;box-shadow:0 0 6px rgba(0,0,0,.2);cursor:crosshair;z-index:10}
+.cloudzoom-zoom{background:#fff;border:1px solid #EEE;width:360px;height:360px;z-index:200;box-shadow:3px 3px 0 rgba(0,0,0,.1)}
+.cloudzoom-zoom-inside{border:none;box-shadow:none}
+.cloudzoom-caption{display:none;text-align:center;background-color:#fff7d1;color:#FF5C4D;top:20px;font-weight:700;padding:5px 10px;font-family:"微软雅黑";font-size:13px}
+.cloudzoom-blank{background-image:url(../images/mall/blank.png)}
+.cloudzoom-ajax-loader{background-image:url(../images/mall/ajax-loader.gif);width:32px;height:32px}
+.feiwa-item-mn{background-color:#FFF;float:right;width:650px;min-height:500px;margin-right:168px;}
+.feiwa-item-mn .name{padding:0 20px 15px 0}
+.feiwa-item-mn .name h1,.feiwa-item-mn .name strong{font:700 16px/21px "Microsoft Yahei";color:#333;text-overflow:ellipsis;white-space:nowrap;display:block;overflow:hidden}
+.feiwa-item-mn .name strong{font-weight:400;font-size:12px;line-height:17px;color:#777;white-space:normal;margin-top:5px}
+.feiwa-ss-meta{color:#999;background:#fff1e6;background-size:cover;position:relative;z-index:3; margin-right:20px ;}
+.feiwa-ss-sale{background-color:#fff;border-bottom:solid 1px #eee;position:relative;z-index:3; margin-right: 20px;}
+.feiwa-ss-sale .goods-gift{max-height:120px;overflow:hidden;position:relative;z-index:1}
+.feiwa-ss-sale .goods-gift ul li{font-size:0;margin-bottom:4px}
+.feiwa-ss-sale .goods-gift .goods-gift-name,.feiwa-ss-sale .goods-gift .goods-gift-thumb,.feiwa-ss-sale .goods-gift ul li em{font-size:12px;vertical-align:middle;letter-spacing:normal;word-spacing:normal;display:inline-block}
+.feiwa-ss-sale .goods-gift .goods-gift-thumb span{background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:24px;height:24px;padding:1px;border:1px solid #EEE;overflow:hidden}
+.feiwa-ss-sale .goods-gift .goods-gift-thumb span img{max-width:24px;max-height:24px;margin-top:expression(24-this.height/2)}
+.feiwa-ss-sale .goods-gift .goods-gift-name{color:#005EA6;margin-left:5px}
+.feiwa-ss-sale .goods-gift ul li em{font-family:Arial;color:#F60;margin-left:5px}
+.feiwa-ss-plus{padding:0}
+.feiwa-ss-key{position:relative;z-index:1}
+.feiwa-item-mn hr{font-size:0;background-color:transparent;line-height:0;width:90%;margin:0 auto;border:none;border-top:dotted 1px #eee}
+.feiwa-item-mn dl{font-size:0}
+.feiwa-item-mn dl dd,.feiwa-item-mn dl dt{font-size:12px;line-height:24px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;min-height:24px;padding:6px 0 0}
+.feiwa-ss-meta dl dd,.feiwa-ss-meta dl dt{line-height:30px;height:30px;font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"!important;font:12px/1.5 Arial}
+.feiwa-ss-meta dl{padding:5px 0 10px 0 ;}
+.feiwa-ss-meta dl dt{ color:#666 ; line-height:30px; width: 58px; margin-right:15px ;}
+.feiwa-ss-sale dl dd,.feiwa-ss-sale dl dt{padding:10px 0}
+.feiwa-item-mn dt{text-align:right;width:76px;margin-right:6px}
+.feiwa-item-mn dd{text-align:left;width:540px}
+.feiwa-ss-meta dl dd i.ver-line{display:inline-block;zoom:1}
+.feiwa-ss-meta dl dd a{color:#333;text-decoration:underline;vertical-align:middle;display:inline-block}
+.feiwa-item-mn dl.rate{ background:#fff9f5;padding: 6px 0 4px;height: 28px;color: #888;}
+.feiwa-item-mn dl.rate .num{color: #666; padding-left: 5px;  font-weight: bold;  font-family: Arial;}
+.feiwa-item-mn dl.rate a{color:#888 ;    text-decoration: none;}
+.feiwa-item-mn dl.rate dd{width:100% ; padding:0 ;}
+.feiwa-item-mn dl.rate dd > span{    float: left; line-height: 20px; height: 20px;width: 154px; text-align: center; margin-top: 4px;}
+.feiwa-item-mn dl.rate dd > span.b{width: 257px; border-left: 1px solid #ffebdd; border-right: 1px solid #ffebdd;}
+
+
+.model-wholesale .feiwa-ss-meta { margin-bottom: 10px;}
+.model-wholesale .feiwa-ss-meta dl { background-color: #FFF2E5; padding: 0;}
+.model-wholesale .feiwa-ss-meta dt{padding: 0;}
+.model-wholesale .feiwa-ss-meta dt.pt15{padding-top: 15px;}
+.model-wholesale .feiwa-ss-meta dl dd { position: relative; z-index: 1;height: auto !important;padding:0;width: 556px;line-height: 30px;}
+.model-wholesale .feiwa-ss-meta .goods-price-real { padding: 10px 0 0 15px;}
+.model-wholesale .feiwa-ss-meta .goods-small-quantity { display: block; padding: 0 0 0 15px; color: #333; font-size: 12px;}
+.model-wholesale .feiwa-ss-meta .goods-small-quantity.s{padding-bottom:10px}
+.model-wholesale .feiwa-ss-meta .goods-price-real.first,
+.model-wholesale .feiwa-ss-meta .goods-small-quantity.first { position: relative; z-index: 1; display: block; background-color: #FFF2E5; width: 170px;}
+.model-wholesale .feiwa-ss-meta .goods-price-real.second,
+.model-wholesale .feiwa-ss-meta .goods-small-quantity.second { position: absolute; z-index: 2; top: 0; right: 0; bottom: 0; left: 186px; display: block; background-color: #FFE8D7;}
+.model-wholesale .feiwa-ss-meta .goods-price-real.third,
+.model-wholesale .feiwa-ss-meta .goods-small-quantity.third { position: absolute; z-index: 3; top: 0; right: 0; bottom: 0; left: 372px; display: block; background-color: #FFDDC8;}
+.model-wholesale .feiwa-ss-meta .goods-price-real strong  { vertical-align: baseline; font-family: Tahoma; font-size: 30px; font-weight: lighter; color: #FF5300;}
+.model-wholesale .feiwa-ss-meta .original-price { display: block; clear: both; font-family: Verdana; font-size: 12px; color: #A1A1A1; line-height: 16px; margin: -2px 0 4px 5px; text-decoration: line-through;}
+.model-wholesale .feiwa-ss-meta .goods-price-real em { font-family: Verdana; font-size: 16px; vertical-align: baseline; margin: 0 2px 0 5px; color: #FF5300;}
+
+.feiwa-ss-meta .price span{font:32px/25px Arial;vertical-align:middle;color:#ff6128; font-weight: bold; float: left; display: inline-block; }
+.feiwa-ss-meta .price span i.a{top: -2px; padding-right: 2px; font-size: 16px; font-weight: normal;}
+.feiwa-ss-meta .price span i.b{top: -1px; font-size: 26px;  font-family: Arial; font-weight: bold;}
+.feiwa-ss-meta .price span i.c{top: -2px; padding-right: 2px; font-size: 16px; font-weight: normal;}
+.feiwa-ss-meta .price em{ margin-top:7px ;float: left;}
+.feiwa-ss-meta .price em del{color:#888;vertical-align:middle;margin-left:8px;}
+.limitBox{position: absolute;  right: 0;  top: -5px; width: 123px; height: 55px; background: url("../images/limitIcon.jpg") no-repeat 0 0; line-height: 78px;   text-align: right; color:#333 ;  padding-right: 5px;}
+.feiwa-ss-meta .cost-price strong{text-decoration:line-through;color:#c00}
+.feiwa-ss-goods-code{width:100px;height:120px;position:absolute;z-index:1;top:12px;right:12px}
+.feiwa-ss-goods-code p{vertical-align:middle;text-align:center;display:table-cell;width:100px;height:100px;padding:0;overflow:hidden}
+.feiwa-ss-goods-code img{max-width:100px;max-height:100px;margin-top:expression(100-this.height/2)}
+.feiwa-ss-book-down{font-size:0;width:350px;padding:5px 130px 5px 100px;position:relative;z-index:1;background-color:#FAFAFA;border-bottom:solid 1px #eee}
+.feiwa-ss-book-down .rule-price,.feiwa-ss-book-down .rule-symbol{font-size:12px;text-align:center;vertical-align:middle;display:inline-block}
+.feiwa-ss-book-down .rule-price{color:#F32613;line-height:20px;background-color:#FFF;min-width:60px;height:40px;padding:4px 9px;border:dashed 1px #C92000}
+.feiwa-ss-book-down .rule-price strong{font-weight:600;display:block;color:#000}
+.feiwa-ss-book-down .rule-symbol{font-size:16px;margin:0 10px}
+.feiwa-ss-book-down .rule-time{font-size:12px;display:block;clear:both;padding:5px 0 0 0}
+.feiwa-ss-book-down .rule-info{font-size:12px;display:block;position:absolute;z-index:1;top:20px;right:100px}
+.feiwa-ss-book-down .rule-info a{color:#333;display:block;position:relative;z-index:1;cursor:pointer}
+.feiwa-ss-book-down .rule-info a:hover{color:#F32613;text-decoration:none}
+.feiwa-ss-book-down .rule-info a i{font-size:16px;vertical-align:middle;margin-left:6px;color:#6DD900}
+.feiwa-ss-book-down .rule-info a ul{background-color:#FFF;display:none;width:300px;padding:0 10px 10px;position:absolute;z-index:1;top:25px;left:-100px;box-shadow:4px 4px 0 #F5F5F5}
+.feiwa-ss-book-down .rule-info a:hover ul{display:block;background-color:#FFF}
+.feiwa-ss-book-down .rule-info a ul .arrow{font-size:0;line-height:0;display:block;width:0;height:0;margin-left:95px;margin-top:-15px;border-color:transparent transparent #FFF transparent;border-style:dashed dashed solid dashed;border-width:8px}
+.feiwa-ss-book-down .rule-info a ul li{color:#777;line-height:16px;padding:10px 0 0}
+.feiwa-ss-sale .promotion-info{font-size:0;word-spacing:-1em;position:relative;z-index:4}
+.feiwa-ss-sale .promotion-info span{font-size:12px;vertical-align:middle;letter-spacing:normal;word-spacing:normal;display:inline-block}
+.feiwa-ss-sale .promotion-info .sale-name{line-height:16px;color:#FFF;background-color:#FF875A;height:16px;padding:2px 5px;margin-right:10px}
+.feiwa-ss-sale .promotion-info .sale-rule{color:#555;width:375px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.feiwa-ss-sale .promotion-info .sale-rule em{font-family:Arial;font-weight:600;color:#333;margin:0 1px}
+.feiwa-ss-sale .promotion-info .sale-rule a.gift{background-color:#FFF;text-align:center;vertical-align:middle;display:inline-block;width:20px;height:20px;padding:1px;overflow:hidden}
+.feiwa-ss-sale .promotion-info .sale-rule a.gift img{max-width:20px;max-height:20x}
+.feiwa-ss-sale .promotion-info .sale-rule-more i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -50px -100px;vertical-align:middle;display:inline-block;width:7px;height:4px;margin-left:4px}
+.feiwa-ss-sale .promotion-info .sale-rule-more strong{font-weight:400;color:#FF875A;margin:0 2px}
+.feiwa-ss-sale .promotion-info .sale-rule-more a{color:#999}
+.feiwa-ss-sale .promotion-info .sale-rule-more a:hover{color:#FF875A;text-decoration:none}
+.sale-rule-content{font-size:12px;background-color:#FFF;width:508px;border:solid 1px #D7D7D7;position:absolute;z-index:1;top:5px;left:-5px;box-shadow:4px 4px 0 rgba(0,0,0,.05)}
+.sale-rule-content .title{line-height:20px;background-color:#F5F5F5;height:20px;padding:5px;border-bottom:solid 1px #D6D6D6}
+.sale-rule-content .title span{vertical-align:top}
+.sale-rule-content .title strong{font-weight:400;color:#FF875A;margin:0 2px}
+.sale-rule-content .title a{float:right}
+.sale-rule-content .content{padding:5px 0 5px 60px}
+.sale-rule-content .bottom{border-top:solid 1px #D7D7D7;padding:8px 0;overflow:hidden}
+.sale-rule-content .bottom a{color:#005EA6;text-decoration:none;float:right;margin-right:10px}
+.sale-rule-content .mjs-tit{font-weight:600}
+.sale-rule-content .mjs-tit time{font-weight:400;color:#999}
+.sale-rule-content .mjs-info li{line-height:24px;display:block;height:24px;margin-bottom:2px}
+.feiwa-ss-jjg,.feiwa-ss-mansong{padding:2px 0}
+.cou-rule-list{background-color:#FFF;padding:5px 0 5px 60px}
+.couRuleScrollbar{position:relative;max-height:180px;padding-right:10px;overflow:hidden}
+.cou-rule{display:block;padding:0 0 5px 0;border-bottom:dashed 1px #D6D6D6;margin-bottom:5px}
+.cou-rule h4{color:#000;line-height:20px;margin-bottom:5px}
+.cou-rule ul li{display:block;width:100%;height:20px;padding:2px 0}
+.cou-rule ul li img{width:20px;height:20px;float:left;margin-right:5px}
+.cou-rule ul li h5{color:#777;white-space:nowrap;text-overflow:ellipsis;width:300px;height:20px;float:left;overflow:hidden}
+.cou-rule ul li h6{color:#690;display:block;width:80px;text-align:right;float:right}
+.feiwa-ss-freight{padding:6px 0}
+.feiwa-ss-freight dt{line-height:28px}
+.feiwa-ss-freight_box{display:block;position:relative;z-index:80}
+.feiwa-ss-freight-select{height:28px;float:left;margin-right:6px;position:relative;z-index:3}
+.feiwa-ss-freight-select .text{line-height:26px;background-color:#FFF;height:26px;float:left;padding:0 20px 0 15px;border:solid 1px #eee;position:relative;z-index:1;overflow:hidden;cursor:pointer}
+.feiwa-ss-freight-select.hover .text{display:none}
+.feiwa-ss-freight-select .text b{font-size:0;line-height:0;background:url(../images/mall/2014_ncs_public_img.png) no-repeat -50px -100px;display:block;width:8px;height:4px;position:absolute;top:10px;right:6px;overflow:hidden}
+.feiwa-ss-freight-select.hover .close,.feiwa-ss-freight-select.hover .content{display:block}
+.feiwa-ss-freight-select .content{background-color:#FFF;display:none;width:512px;padding:0;border:1px solid #D7D7D7;position:absolute;z-index:2;top:0;left:0;box-shadow:4px 4px 0 rgba(0,0,0,.05)}
+.feiwa-ss-freight-select .feiwa-ss-stock{position:relative}
+.feiwa-ss-freight-select .feiwa-ss-stock .tab{background-color:#FAFAFA;width:100%;height:26px;float:left;border-bottom:solid 1px #eee;overflow:visible}
+.feiwa-ss-freight-select .feiwa-ss-stock .tab li{float:left;clear:none;padding:0}
+.feiwa-ss-freight-select .feiwa-ss-stock .tab .current a.hover,.feiwa-ss-freight-select .feiwa-ss-stock .tab a{font-size:12px;line-height:26px;color:#999;text-align:center;float:left;height:26px;padding:0 15px 0 15px;border-style:solid;border-width:0 1px 0 0;border-color:#eee;position:relative;cursor:pointer;-moz-border-colors:none}
+.feiwa-ss-freight-select .feiwa-ss-stock .tab a.hover{line-height:26px;color:#000;text-decoration:none;background-color:#FFF;height:26px;padding:0 15px 1px 15px;border-color:#eee;border-style:solid;border-width:0 1px 0 0}
+.feiwa-ss-freight-select .feiwa-ss-stock .tab a i{font-size:0;line-height:0;background:url(../images/mall/2014_ncs_public_img.png) no-repeat -50px -100px;vertical-align:middle;display:inline-block;width:8px;height:4px;margin-left:6px}
+.feiwa-ss-freight-select .feiwa-ss-stock .area-list{display:block;clear:both;padding:10px 15px;overflow:hidden}
+.feiwa-ss-freight-select .feiwa-ss-stock .area-list li{line-height:20px;white-space:nowrap;text-overflow:ellipsis;width:112px;height:20px;padding:4px 0 4px 4px;float:left;overflow:hidden}
+.feiwa-ss-freight-select .feiwa-ss-stock .area-list li.longer-area{width:228px}
+.feiwa-ss-freight-select .feiwa-ss-stock .area-list li a{line-height:16px;color:#555;padding:2px 5px}
+.feiwa-ss-freight-select .feiwa-ss-stock .area-list li a:hover{color:#FFF;text-decoration:none;background-color:#FF875A}
+.feiwa-ss-freight-select .close{font-size:12px;line-height:20px;display:none;width:24px;height:20px;position:absolute;z-index:2;top:4px;left:480px;cursor:pointer}
+#feiwa-ss-freight-prompt{line-height:28px;color:#999;float:left}
+#feiwa-ss-freight-prompt strong{font-size:16px;color:#333;margin:0 8px}
+.feiwa-ss-logistics{position:relative;z-index:2}
+.feiwa-ss-logistics .feiwa-ss-chain{padding:6px 0}
+.feiwa-ss-logistics .feiwa-ss-chain i.icon-chain{background:url(../images/mall/2014_ncs_public_img.png) no-repeat 0 -100px;vertical-align:middle;display:inline-block;width:20px;height:20px;padding-right:5px}
+.feiwa-ss-logistics .feiwa-ss-chain dd{color:#999}
+.feiwa-ss-logistics .feiwa-ss-chain a{font-size:14px;color:#BA7538;margin-right:5px}
+.feiwa-ss-chain-show{display:block;padding:10px}
+.feiwa-ss-chain-show dl{font-size:0;margin-bottom:10px}
+.feiwa-ss-chain-show dd,.feiwa-ss-chain-show dt{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block}
+.feiwa-ss-chain-show dt{font-size:14px;line-height:28px;margin-right:10px}
+.feiwa-ss-chain-show dd select{margin-right:4px}
+.feiwa-ss-chain-list{background:#F5F5F5 url(../images/mall/ncs_chain_show.png) no-repeat 50% 40%;min-height:300px;border:solid 1px #eee}
+.feiwa-ss-chain-no-date{font-size:16px;font-weight:600;text-align:center;margin:180px auto 0 auto}
+.feiwa-ss-chain-list ul{padding:10px}
+.feiwa-ss-chain-list ul li{line-height:20px;background-color:#FFF;padding:5px 5px 5px 15px;margin-bottom:10px;border:solid 1px #eee;border-radius:5px}
+.feiwa-ss-chain-list ul li a{color:#2272c8}
+.feiwa-ss-chain-list ul li a:hover{text-decoration:underline}
+.feiwa-ss-chain-list ul li h5 i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -30px -100px;vertical-align:middle;display:inline-block;width:10px;height:12px;margin-right:5px}
+.feiwa-ss-chain-list ul li p{color:#999}
+.feiwa-ss-chain-list ul li .handle{line-height:20px;height:20px;float:right;padding:10px;border-left:solid 1px #eee}
+.feiwa-ss-chain-detail{background:url(../images/mall/ncs_chain_bg.jpg) no-repeat 50% 50%;width:1160px;padding:20px;margin:20px auto;overflow:hidden}
+.feiwa-ss-chain-detail .chain-img{float:left;width:360px;height:360px;overflow:hidden}
+.feiwa-ss-chain-detail .chain-info{float:right;width:760px}
+.feiwa-ss-chain-detail .chain-info .chain-name{padding:10px;border-bottom:dotted 1px #CCC}
+.feiwa-ss-chain-detail .chain-info a{color:#FFDB60;background-color:#F32613;float:right;padding:4px 10px;border-radius:5px}
+.feiwa-ss-chain-detail .chain-info a i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -30px -100px;vertical-align:middle;display:inline-block;width:10px;height:12px;margin-right:5px}
+.feiwa-ss-chain-detail .chain-info h1{font-size:24px;font-weight:600;line-height:30px;color:#333;display:inline-block}
+.feiwa-ss-chain-detail .chain-info dl{padding:5px 5px 10px 5px}
+.feiwa-ss-chain-detail .chain-info dt{font-size:14px;line-height:32px;color:#555}
+.feiwa-ss-chain-detail .chain-info dd{font-size:12px;line-height:24px;color:#777}
+.feiwa-ss-key dl{padding:8px 0 0}
+.feiwa-ss-key ul{font-size:0}
+.feiwa-ss-key ul li{vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;margin:0 6px 6px 0;position:relative;z-index:1}
+.feiwa-ss-key ul li a{white-space:nowrap;display:block;min-height:24px;padding:1px;border:1px solid #eee;cursor:pointer}
+.feiwa-ss-key ul li.sp-img a{background-color:#FFF;font-size:12px;color:#999;padding-right:5px}
+.feiwa-ss-key ul li.sp-img a img{vertical-align:middle;display:inline-block;max-width:24px;max-height:24px;margin-right:5px}
+.feiwa-ss-key ul li.sp-txt a{font-size:12px;line-height:24px;color:#000;text-decoration:none;background:#FFF none;text-align:center;white-space:nowrap;min-width:20px;height:24px;padding:0 5px!important;margin:1px}
+.feiwa-ss-key ul li.sp-img a.hovered,.feiwa-ss-key ul li.sp-img a:hover{color:#F32613;text-decoration:none;border:2px solid #F32613;padding:0 4px 0 0}
+.feiwa-ss-key ul li.sp-txt a.hovered,.feiwa-ss-key ul li.sp-txt a:hover{border:2px solid #F32613;margin:0}
+.feiwa-ss-key ul li a i{display:none}
+.feiwa-ss-key ul li a.hovered i{font-size:0;line-height:0;background:url(../images/mall/2014_ncs_public_img.png) no-repeat 0 0;display:block;width:11px;height:11px;position:absolute;z-index:1;right:2px;bottom:2px}
+.feiwa-ss-buy{display:block;clear:both;padding:20px 0 20px 30px;position:relative;z-index:1}
+.feiwa-ss-figure-input{vertical-align:top;display:inline-block;width:65px;position:relative;z-index:1}
+.feiwa-ss-figure-input .input-text{color:#333;font-family:Tahoma;font-size:16px;font-weight:600;line-height:41px;text-align:center;height:41px;width:41px;padding:0;border:solid 1px #eee}
+.feiwa-ss-figure-input a{font-size:0;background-color:#FFF;background:url(../images/mall/2014_ncs_public_img.png) no-repeat;display:block;width:20px;height:20px;border-style:solid;border-color:#eee;border-width:1px 1px 1px 0;position:absolute;z-index:1;left:42px;-webkit-text-size-adjust:none}
+.feiwa-ss-figure-input a:hover{color:#F32613;text-decoration:none}
+.feiwa-ss-figure-input a.increase{background-position:-100px -100px;top:0}
+.feiwa-ss-figure-input a.decrease{background-position:-120px -100px;top:21px}
+.feiwa-ss-figure-input span{white-space:nowrap;display:block;position:absolute;z-index:1;top:50px;left:0}
+.feiwa-ss-figure-input span em{margin:0 2px}
+.feiwa-ss-figure-input span strong{color:#F60;margin:0 2px}
+.feiwa-ss-point{font-size:14px;color:666;background-color:#FFF7D1;display:block;height:24px;padding:5px 9px;border:solid 1px #E5DEBC;position:absolute;z-index:1;top:74px;left:30px;box-shadow:3px 3px 0 rgba(0,0,0,.1)}
+.feiwa-ss-point i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -70px -100px;display:block;width:8px;height:8px;margin-top:-13px;margin-left:8px;margin-bottom:5px}
+.feiwa-ss-point span{line-height:24px}
+.feiwa-ss-point span strong{font-weight:600;color:#FF5C4D;margin:0 2px}
+.feiwa-ss-point span a{color:#06C;text-decoration:underline;margin:0 2px}
+.feiwa-ss-point span.look{font-weight:600;color:#FF5C4D}
+.feiwa-item-mn .feiwa-ss-btn a.arrival{color:#690;vertical-align:top;display:inline-block;margin-top:5px}
+.feiwa-item-mn .feiwa-ss-btn a.arrival i{font-size:14px}
+.feiwa-item-mn .feiwa-ss-btn{vertical-align:top;display:inline-block;height:42px;position:relative;z-index:70;zoom:1}
+.feiwa-item-mn .feiwa-ss-btn a.addcart,.feiwa-item-mn .feiwa-ss-btn a.buynow,.feiwa-item-mn .feiwa-ss-btn a.no-addcart,.feiwa-item-mn .feiwa-ss-btn a.no-buynow{font:700 16px/32px "Microsoft Yahei";color:#FFF;text-align:center;display:inline-block;height:32px;padding:5px 12px;margin-right:5px;border-radius:2px;position:relative;overflow:hidden}
+.feiwa-item-mn .feiwa-ss-btn a.addcart:hover,.feiwa-item-mn .feiwa-ss-btn a.buynow:hover,.feiwa-item-mn .feiwa-ss-btn a.no-addcart:hover,.feiwa-item-mn .feiwa-ss-btn a.no-buynow:hover{text-decoration:none}
+.feiwa-item-mn .feiwa-ss-btn a.buynow{background-color:#BA7538}
+.feiwa-item-mn .feiwa-ss-btn a:hover.buynow{background-color:#96602E}
+.feiwa-item-mn .feiwa-ss-btn a.addcart{background-color:#F32613}
+.feiwa-item-mn .feiwa-ss-btn a:hover.addcart{background-color:#CF0010}
+.feiwa-item-mn .feiwa-ss-btn a.no-addcart,.feiwa-item-mn .feiwa-ss-btn a.no-buynow,.feiwa-item-mn .feiwa-ss-btn a:hover.no-addcart,.feiwa-item-mn .feiwa-ss-btn a:hover.no-buynow{background-color:#AAA;cursor:not-allowed}
+.feiwa-item-mn .feiwa-ss-btn a i{font-size:17px;margin-right:6px}
+.feiwa-ss-cart-popup{background-color:#F5F5F5;display:none;width:320px;height:120px;border:solid 1px #eee;box-shadow:0 0 3px rgba(153,153,153,.25);position:absolute;z-index:1;top:72px;left:-1px}
+.feiwa-ss-cart-popup dl{display:block}
+.feiwa-ss-cart-popup dl dt{font:lighter 16px/20px "Microsoft Yahei";color:#333;text-align:center;width:100%;margin:10px 0 5px 0}
+.feiwa-ss-cart-popup dl dt a{font:10px/12px Verdana;color:#999;text-align:center;display:inline-block;width:12px;height:12px;float:right;margin:-5px 5px 0 0;cursor:pointer}
+.feiwa-ss-cart-popup dl dt a:hover{text-decoration:none;color:#333}
+.feiwa-ss-cart-popup dl dd{text-align:center;width:100%;margin:0 0 5px 0}
+.feiwa-ss-cti{margin-bottom:10px}
+.feiwa-ss-cti dd{overflow:hidden}
+.feiwa-ss-cti dd span{margin-right:10px;color:#999;white-space:nowrap}
+.feiwa-ss-cti dd span img{vertical-align:middle;display:inline-block;width:16px;height:16px;margin-right:4px}
+.feiwa-ss-handle{width:370px;height:24px;padding-top:10px;border-top:dotted 1px #EEE;position:absolute;z-index:1;top:455px}
+.feiwa-ss-handle > span { padding: 0  10px 0 0;top: 12px; color: #999; float: left;}
+.feiwa-ss-handle a{color:#999;background-color:#FFF;float:left;padding: 0  10px 0 12px;border-left: 1px solid #e5e5e5;}
+.feiwa-ss-handle a:hover{text-decoration:none;color:#333;background-color:#F5F5F5}
+.feiwa-ss-handle a.inform{float:right}
+.feiwa-ss-handle a.selected{color:#FFF;background-color:#F32613;border-color:#F32613}
+.feiwa-ss-handle a span{font-family:Arial;color:#AAA;margin-left:4px}
+.feiwa-ss-handle a.compare i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -100px -70px;vertical-align:middle;width:12px;height:12px;display:inline-block;margin-right:4px}
+.feiwa-ss-handle a.compare.selected i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -120px -70px;vertical-align:middle;width:12px;height:12px;display:inline-block;margin-right:4px}
+.ncs_share{background-color:#FAFAFA;display:inline-block;padding:5px 0;margin:10px 0 0 20px;border-radius:3px;position:relative;overflow:hidden;border:solid 1px #eee;box-shadow:0 0 0 2px rgba(204,204,204,.1);overflow:hidden;zoom:1}
+.ncs_share a{color:#005EA6;display:inline-block;height:20px;padding:0 8px;margin-left:-1px;border-left:solid 1px #eee}
+.ncs_share a i{font-size:14px;margin-right:4px;color:#999;vertical-align:middle}
+.ncs_share a em{font-weight:600;color:#999;vertical-align:middle;display:inline-block;margin-left:2px}
+.ncs_share a:hover em,.ncs_share a:hover i{text-decoration:none}
+.feiwa-ss-saleout{background-color:#FAFAFA;width:86%;padding:10px 20px;margin:20px 0;border:dotted 1px #eee}
+.feiwa-ss-saleout dt{font-size:16px!important;line-height:24px;font-weight:600;color:#F32613;width:auto;height:24px!important;margin:0!important}
+.feiwa-ss-saleout dt i{margin-right:6px}
+.feiwa-ss-saleout dd{color:#777;clear:both;line-height:20px!important;margin:6px 0!important;padding:0 0 0 18px!important}
+.feiwa-ss-bundling-tab{display:block;height:20px;padding:10px 0;margin-left:20px;overflow:hidden}
+.feiwa-ss-bundling-tab span{border-left:solid 1px #eee;margin-left:-1px}
+.feiwa-ss-bundling-tab span a{line-height:20px;padding:0 15px}
+.feiwa-ss-bundling-tab span.selected a{font-weight:600;color:#F32613}
+.feiwa-ss-bundling-container{background:#FFF;height:230px}
+.feiwa-ss-bundling-container ul.feiwa-ss-bundling-list{font-size:0;display:block;width:980px;height:230;float:left;margin:0;overflow:hidden}
+.feiwa-ss-bundling-container ul li{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;width:156px;padding:20px 20px 0 20px;margin:0;position:relative;z-index:1}
+.feiwa-ss-bundling-container .goods-thumb{background-color:#FFF;width:120px;height:120px;margin:0 auto}
+.feiwa-ss-bundling-container .goods-thumb a{line-height:0;background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:120px;height:120px;overflow:hidden}
+.feiwa-ss-bundling-container .goods-thumb img{max-width:120px;max-height:120px;margin-top:expression(120-this.height/2)}
+.feiwa-ss-bundling-container dl{display:block;padding:0;margin:4px 0 0 0}
+.feiwa-ss-bundling-container dl dt{line-height:18px;width:100%;height:36px;overflow:hidden}
+.feiwa-ss-bundling-container dl dt a{color:#555}
+.feiwa-ss-bundling-container dl dd{line-height:16px;color:#999;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.feiwa-ss-bundling-container dl dd .o-price{text-decoration:line-through}
+.feiwa-ss-bundling-container dl dd .b-price{font-weight:600;color:#F32613}
+.feiwa-ss-bundling-container .plus{background:url(../images/mall/2014_ncs_public_img.png) no-repeat 0 -130px;display:block;width:19px;height:19px;position:absolute;z-index:1;top:70px;left:-19px}
+.feiwa-ss-bundling-price{color:#777;background-color:#FAFAFA;display:block;width:177px;height:220px;float:right;padding:50px 15px 0 15px;margin-top:-40px;border-left:solid 1px #eee}
+.feiwa-ss-bundling-price ul li{line-height:28px;color:#777;white-space:nowrap;text-overflow:ellipsis;width:100%;padding:0!important;overflow:hidden}
+.feiwa-ss-bundling-price ul li strong{color:#005EA6;font-weight:600}
+.feiwa-ss-bundling-price ul li em{font-family:Arial}
+.feiwa-ss-bundling-price ul li .bundling-price{font-weight:600;color:#D00}
+.feiwa-ss-bundling-price ul li .bundling-save{color:#468C00}
+.feiwa-ss-combo-box{height:270px}
+.feiwa-ss-combo-box .default-goods{width:170px;padding:40px 19px 0 20px;float:left;position:relative;z-index:1}
+.feiwa-ss-combo-box .default-goods .goods-thumb{background-color:#FFF;width:140px;height:140px;margin:0 auto}
+.feiwa-ss-combo-box .default-goods .goods-thumb a{line-height:0;background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:140px;height:140px;overflow:hidden}
+.feiwa-ss-combo-box .default-goods .goods-thumb img{max-width:140px;max-height:140px;margin-top:expression(140-this.height/2)}
+.feiwa-ss-combo-box .default-goods dt{color:#555;line-height:18px;height:36px;margin-top:5px;overflow:hidden}
+.feiwa-ss-combo-box .default-goods .goods-price{font-weight:600;color:#D00}
+.feiwa-ss-combo-box .default-goods .plus{background:url(../images/mall/2014_ncs_public_img.png) no-repeat 0 -130px;display:block;width:19px;height:19px;position:absolute;z-index:1;top:100px;right:10px}
+.feiwa-ss-combo-box .feiwa-ss-combo-tab{display:block;height:20px;padding:10px 0;margin-left:20px;overflow:hidden}
+.feiwa-ss-combo-box .feiwa-ss-combo-tab span{border-left:solid 1px #eee;margin-left:-1px}
+.feiwa-ss-combo-box .feiwa-ss-combo-tab span a{line-height:20px;padding:0 15px}
+.feiwa-ss-combo-box .feiwa-ss-combo-tab span.selected a{font-weight:600;color:#F32613}
+.feiwa-ss-combo-box .combo-goods{width:779px;float:left}
+.feiwa-ss-combo-box .combo-goods-box{width:778px;height:210px;padding:10px 0;margin:0;border:solid #eee;border-width:1px 0 0 1px;position:relative;z-index:1}
+.feiwa-ss-combo-box .combo-goods-list{width:684px;height:210px;margin:0 47px;overflow:hidden;position:relative;z-index:1}
+.feiwa-ss-combo-box .combo-goods-list ul{font-size:0;white-space:nowrap;overflow:hidden;position:absolute;z-index:1;top:0;left:0}
+.feiwa-ss-combo-box .combo-goods-list li{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;width:130px;padding:10px 0 10px 18px;margin-right:27px;border:solid 1px transparent;position:relative;z-index:1}
+.feiwa-ss-combo-box .combo-goods-list li:hover{border:solid 1px #D00}
+.feiwa-ss-combo-box .combo-goods-list li .goods-thumb{background-color:#FFF;width:80px;height:80px;margin:0 auto}
+.feiwa-ss-combo-box .combo-goods-list li .goods-thumb a{line-height:0;background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:80px;height:80px;overflow:hidden}
+.feiwa-ss-combo-box .combo-goods-list li .goods-thumb img{max-width:80px;max-height:80px;margin-top:expression(80-this.height/2)}
+.feiwa-ss-combo-box .combo-goods-list li dl{margin-top:10px}
+.feiwa-ss-combo-box .combo-goods-list li dt{line-height:16px;white-space:normal;height:48px;overflow:hidden}
+.feiwa-ss-combo-box .combo-goods-list li dt a{color:#777}
+.feiwa-ss-combo-box .combo-goods-list li dd.goods-price{font-weight:600;color:#D00;margin-top:5px}
+.feiwa-ss-combo-box .combo-goods-list li dd.rp{color:#999;text-decoration:line-through}
+.feiwa-ss-combo-box .combo-goods-list li .checkbox{position:absolute;z-index:1;top:5px;right:5px}
+.feiwa-ss-combo-box .combo-goods-list li .plus{background:url(../images/mall/2014_ncs_public_img.png) no-repeat 0 -130px;display:block;width:19px;height:19px;position:absolute;z-index:1;top:45px;left:-20px}
+.feiwa-ss-combo-box .combo-goods-box .F-prev{background-color:#FFF;width:46px;height:229px;border-right:solid 1px #eee;position:absolute;z-index:2;top:0;left:0}
+.feiwa-ss-combo-box .combo-goods-box .F-next{background-color:#FFF;width:46px;height:229px;border-left:solid 1px #eee;position:absolute;z-index:2;top:0;right:0}
+.feiwa-ss-combo-box .combo-goods-box .F-prev i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -12px 0;display:block;width:10px;margin:105px 0 0 17px;height:20px;cursor:pointer;opacity:.5}
+.feiwa-ss-combo-box .combo-goods-box .F-next i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -22px 0;display:block;width:10px;margin:105px 0 0 17px;height:20px;cursor:pointer;opacity:.5}
+.feiwa-ss-combo-box .combo-goods-box .F-next:hover i,.feiwa-ss-combo-box .combo-goods-box .F-prev:hover i{opacity:1}
+.feiwa-ss-combo-box .combo-goods-box .no-slider i{opacity:.1!important;cursor:no-drop!important}
+.combo-price{color:#777;display:block;width:177px;height:220px;float:right;padding:50px 15px 0 15px;border-left:solid 1px #eee}
+.combo-price ul li{line-height:28px;color:#777;white-space:nowrap;text-overflow:ellipsis;width:100%;padding:0!important;overflow:hidden}
+.combo-price ul li strong{color:#005EA6;font-weight:600}
+.combo-price ul li em{font-family:Arial}
+.combo-price ul li .price{font-weight:600;color:#D00}
+.tabbar{background:#FFF}
+.feiwa-ss-goods-title-bar{font-size: 20px; font-weight: bold; border-bottom: 2px solid #dcdcdc;  height: 76px;  margin-bottom: 14px;}
+.feiwa-ss-goods-title-bar h4{fdisplay: block; border-bottom: 2px solid #ff5370; padding: 36px 0 12px;  float: left; height: 28px;}
+.feiwa-ss-goods-title-nav{margin-top:0}
+.feiwa-ss-goods-title-nav ul{    border: 1px solid #eee; line-height: 41px; font-size: 14px;  width: 100%;  height: 43px;  -webkit-transition: width 0.4s ease-in-out;  -moz-transition: width 0.4s ease-in-out; -ms-transition: width 0.4s ease-in-out; -o-transition: width 0.4s ease-in-out;  transition: width 0.4s ease-in-out;background: #fafafa;  border-bottom: 1px solid #dcdcdc; position: relative;}
+.feiwa-ss-goods-title-nav ul li{vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;border-right: 1px solid #eee;}
+
+.feiwa-ss-goods-title-nav ul li.saoma{padding: 0 23px; position: absolute; right: 1px; top: 1px; border: none; background: #fff;  height: 42px;  overflow: hidden;cursor: pointer;}
+.feiwa-ss-goods-title-nav ul li.saoma i {display: inline-block;   line-height: 43px;   padding-right: 40px;  background: url(../images/mainIndex.png) no-repeat 95px 0;}
+.feiwa-ss-goods-title-nav ul li.saoma img { display: block;}
+.feiwa-ss-goods-title-nav ul li.saoma:hover { padding-bottom: 23px; height: auto; box-shadow: 0 0 6px 0px #bbb;}
+.feiwa-ss-goods-title-nav ul li.saoma:hover i {  background-position: 95px -34px;}
+.feiwa-ss-goods-title-nav ul li a{float: left;  color: #666;  width: 124px;  border: 1px solid #fafafa;   text-align: center;   background: #fafafa;}
+.feiwa-ss-goods-title-nav ul li a em{color:red;font-weight:700}
+.feiwa-ss-goods-title-nav ul li.current{margin:0 0 -1px -1px}
+.feiwa-ss-goods-title-nav ul li.current a{border-color: #ff5370;  background: #ff5370;   color: #fff;}
+.feiwa-ss-goods-info-content{padding-bottom:23px; padding-top: 40px;}
+.feiwa-ss-goods-info-content .default{text-align:center}
+.feiwa-ss-goods-info-content .top{padding:9px;margin-bottom:20px;background:#fff}
+.feiwa-ss-promotion{margin-bottom:20px}
+.feiwa-ss-promotion .feiwa-ss-goods-info-content{padding:0;border:solid #eee;border-width:0 1px 1px;background-color:#FFF}
+.phone-purchase{position:relative;zoom:1}
+.feiwa-ss-goods-title-nav .phone-purchase a{position:relative;zoom:1;padding:0 25px 0 38px;background-position:-24px -1243px;color:#c00}
+.feiwa-ss-goods-title-nav .phone-purchase .ico,.feiwa-ss-goods-title-nav .phone-purchase a{background:url(http://icon.zol-img.com.cn/newmall/mall/detail/youdian_v1/bg.png) no-repeat}
+.feiwa-ss-goods-title-nav .phone-purchase .ico{position:absolute;top:15px;right:16px;width:5px;height:3px;font:0/0 arial;background-position:0 -1241px}
+.phone-purchase .code{display:none;position:absolute;top:36px;left:-1px;padding:10px 14px;width:91px;border:1px solid #ededed;border-top-color:#fff;background:#fff;z-index:1}
+.phone-purchase .code img{display:block}
+.feiwa-ss-goods-title-nav .phone-purchase-hover .ico{background-position:0 -1254px}
+.phone-purchase-hover .code{display:block}
+.nc-goods-sort{font-size:0;background-color:#FFF;padding:10px 0;margin-bottom:10px}
+.nc-goods-sort li{font-size:12px;line-height:20px;letter-spacing:normal;word-spacing:normal;text-overflow:ellipsis;white-space:nowrap;display:inline-block;width:23%;padding:0 0 0 2%;margin:0;overflow:hidden}
+.bottom-template,.default,.top-template{padding:0;margin:0;border:0;overflow:hidden}
+.bottom-template img,.default img,.top-template img{vertical-align:top}
+#main-nav{width:auto}
+.feiwa-ss-goods-layout{width:100%;margin-bottom:10px;position:relative;z-index:1;overflow:hidden}
+.sticky .expanded #main-nav{width: 948px;}
+.sticky #main-nav{width:1200px;position:fixed;top:0;z-index:999}
+.sticky #main-nav ul{margin:0 auto}
+.switch-bar{background:transparent url(../images/mall/switch_bar.png) no-repeat 0 0;width:13px;height:237px;position:absolute;z-index:999;top:200px;right:0}
+.switch-bar a{display:block;width:13px;height:42px;margin-top:97px;cursor:pointer}
+.switch-bar a:hover{text-decoration:none}
+.feiwa-ss-sidebar{display:none;width:210px _position:relative}
+.expanded .feiwa-ss-goods-main{float:left;width:948px;background:#fff;}
+.expanded .main-left{float:left;width:790px;background:#fff}
+.expanded .main-right{float:right;width:188px;background:#fafafa}
+.sticky .main-right{position:fixed;top:36px;left:50%;margin:0 0 0 410px;float:none;z-index:49;overflow:hidden}
+.expanded .switch-bar{background-position:-15px 0;right:-13px}
+.expanded .feiwa-ss-sidebar{width:220px;display:block;float:right}
+.zs-quick-menu{margin:20px 0;padding:0 30px;overflow:hidden;zoom:1}
+.zs-quick-menu ul{margin:-14px 0}
+.zs-quick-menu li{height:45px;font:14px/45px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";vertical-align:middle}
+.zs-quick-menu a{display:block;padding:0 0 0 22px;background:url(../images/quick-menu.png) no-repeat;color:#333;vertical-align:baseline}
+.zs-quick-menu .cur a,.zs-quick-menu a:hover{background-position:0 -45px;color:#c00;text-decoration:none}
+.feiwa-ss-store-map-content{margin:20px;overflow:hidden}
+.feiwa-ss-store-map-baidu{float:left}
+.feiwa-ss-store-map-info{width:300px;height:400px;float:right;padding-left:20px;border-left:solid 1px #eee}
+.feiwa-ss-store-map-info .store-district{font-size:16px;margin-bottom:20px}
+.feiwa-ss-store-map-info .address-box{width:100%;height:360px;position:relative;z-index:1;overflow:hidden}
+.feiwa-ss-store-map-info .address-list dl{border:solid 1px #eee;padding-bottom:5px;margin-bottom:10px}
+.feiwa-ss-store-map-info .address-list dt{font-size:12px;line-height:20px;font-weight:600;background-color:#FAFAFA;padding:2px 10px;border-bottom:solid 1px #eee}
+.feiwa-ss-store-map-info .address-list dd{font-size:12px;line-height:20px;margin:5px 10px 0 10px}
+.feiwa-ss-comment .rate{line-height:20px;color:#F32613;vertical-align:middle;display:inline-block;margin:10px 40px 10px 20px}
+.feiwa-ss-comment .rate strong{font:lighter 40px/40px arial;vertical-align:bottom}
+.feiwa-ss-comment .rate sub{font:16px/20px arial;vertical-align:bottom;margin-right:6px}
+.feiwa-ss-comment .rate span{color:#999;display:block;clear:both}
+.feiwa-ss-comment .percent{vertical-align:middle;display:inline-block}
+.feiwa-ss-comment .percent dl{font-size:0}
+.feiwa-ss-comment .percent dt{font-size:12px;line-height:20px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;width:80px;height:20px}
+.feiwa-ss-comment .percent dt em{color:#999;margin-left:4px}
+.feiwa-ss-comment .percent dd{background-color:#F5F5F5;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;width:100px;height:14px;margin:3px 0}
+.feiwa-ss-comment .percent dd i{background-color:#F32613;display:block;height:14px}
+.feiwa-ss-comment .btns{vertical-align:middle;display:inline-block;height:60px;padding-left:30px;margin-left:300px;border-left:dotted 1px #eee}
+.feiwa-ss-commend-main{padding:20px 0 0 0;background:#fff}
+.feiwa-ss-commend-floor{margin:0 40px 0 60px;border-left:solid 3px #F5F5F5;position:relative;z-index:1}
+.feiwa-ss-commend-floor .user-avatar{background-color:#F2F2F2;width:40px;height:40px;border-radius:20px;position:absolute;z-index:1;top:0;left:-20px}
+.feiwa-ss-commend-floor .user-avatar a{text-align:center;vertical-align:middle;display:table-cell;width:40px;height:40px;border-radius:20px;overflow:hidden}
+.feiwa-ss-commend-floor .user-avatar a img{max-width:40px;max-height:40px;margin-top:expression(40-this.height/2);border-radius:20px}
+.feiwa-ss-commend-floor .detail{margin:10px 0 0 30px}
+.feiwa-ss-commend-floor .detail dt{line-height:24px;display:block;height:24px;margin-bottom:10px;overflow:hidden}
+.feiwa-ss-commend-floor .detail dt .user-name{font:700 12px/20px "Microsoft Yahei";color:#AAA;float:left}
+.feiwa-ss-commend-floor .detail dt .goods-raty{color:#777;float:right}
+.feiwa-ss-commend-floor .detail dd{font-size:14px;line-height:18px;color:#555;margin-bottom:10px}
+.feiwa-ss-commend-floor .detail .photos-thumb{font-size:0;vertical-align:middle;display:inline-block}
+.feiwa-ss-commend-floor .detail .photos-thumb li{vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;text-align:center;width:34px;margin-right:6px}
+.feiwa-ss-commend-floor .detail .photos-thumb a{line-height:0;background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:30px;height:30px;padding:1px;border:solid 1px #eee;overflow:hidden}
+.feiwa-ss-commend-floor .detail .photos-thumb a:hover{border-color:#F32613}
+.feiwa-ss-commend-floor .detail .photos-thumb a img{max-width:30px;max-height:30px;margin-top:expression(30-this.height/2)}
+.feiwa-ss-commend-floor .detail .pubdate{font-size:12px;color:#AAA}
+.feiwa-ss-commend-floor .detail .explain{font-size:12px;color:#DA542E;background-color:#FFC;padding:9px;border:dashed 1px #FEF4B1}
+.feiwa-ss-commend-floor .detail hr{font-size:0;line-height:0;padding:0;margin:10px 0;height:0;width:100%;border:none 0;border-top:dashed 1px #eee}
+.more-commend{text-decoration:underline!important;position:absolute;z-index:1;top:10px;left:30px;color:#F32613}
+.ncg-salelog .price{background-color:#FFF}
+.ncg-salelog .price strong{font:600 14px/20px arial;color:#F32613;margin:0 4px}
+.ncg-salelog .price span{line-height:16px;color:#FFF;background-color:#C8C8C8;vertical-align:middle;display:inline-block;height:16px;padding:1px 4px;margin-left:20px}
+.ncg-salelog .bd table{background-color:#FFF}
+.ncg-salelog .bd thead th{font-weight:600;text-align:center;padding:8px 0;border-bottom:solid 2px #E7E7E7}
+.ncg-salelog .bd tbody td{text-align:center;padding:15px 0;border-bottom:dashed 1px #E7E7E7}
+.feiwa-ss-cosult-tips{width:780px;height:65px;float:left;margin:10px 0 5px 10px;position:relative;z-index:1}
+.feiwa-ss-cosult-tips i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -80px 0;width:147px;height:65px;position:absolute;z-index:1;top:0;left:0}
+.feiwa-ss-cosult-tips p{line-height:18px;color:#9B827D;width:700px;height:36px;position:absolute;z-index:1;top:28px;left:64px}
+.feiwa-ss-cosult-askbtn{float:right;padding:10px}
+.feiwa-ss-cosult-main{padding:20px 0 0 0}
+.feiwa-ss-cosult-main .more{margin:10px 15px}
+.feiwa-ss-cosult-list{padding:6px;border-bottom:dotted 1px #D6D6D6}
+.feiwa-ss-cosult-list dl{font-size:0;display:block;margin-bottom:4px}
+.feiwa-ss-cosult-list dl.asker{color:#999}
+.feiwa-ss-cosult-list dl.ask-con{color:#555}
+.feiwa-ss-cosult-list dl.reply{color:#F32613}
+.feiwa-ss-cosult-list dt{font-size:12px;line-height:20px;vertical-align:top;letter-spacing:normal;word-spacing:normal;text-align:right;display:inline-block;width:7%}
+.feiwa-ss-cosult-list dd{font-size:12px;line-height:20px;vertical-align:top;letter-spacing:normal;word-spacing:normal;text-align:left;display:inline-block;width:93%}
+.feiwa-ss-cosult-list dd p{display:inline-block;width:760px}
+.feiwa-ss-cosult-list dd time{text-align:right;display:inline-block;color:#999}
+.feiwa-ss-consult-form{display:block;padding:10px 15px;border:solid #eee;border-width:0 1px 1px;background:#fff}
+.feiwa-ss-consult-form dl{font-size:0;margin-bottom:4px}
+.feiwa-ss-consult-form dd,.feiwa-ss-consult-form dt{font-size:12px;line-height:20px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block}
+.feiwa-ss-consult-form dt{font-weight:600;width:65px}
+.feiwa-ss-consult-form dd{position:relative;z-index:1}
+.feiwa-ss-consult-type-intro{margin-bottom:4px}
+.feiwa-ss-consult-form label{font-size:12px;vertical-align:top;display:inline-block;margin-right:20px}
+.feiwa-ss-consult-form label .text{display:inline-block;vertical-align:middle;padding:2px 4px}
+.feiwa-ss-consult-form label .radio{display:inline-block;vertical-align:middle;margin-right:4px}
+.feiwa-ss-consult-form label img{display:inline-block;vertical-align:middle;margin:0 4px;cursor:pointer}
+.feiwa-ss-consult-form label span{color:#09C}
+.feiwa-ss-consult-form .counter{line-height:20px;color:#999;vertical-align:top;display:inline-block;margin-left:10px}
+.feiwa-ss-consult-form .counter em{font-weight:700;margin:0 2px}
+.feiwa-ss-consult-form .counter em.warning{color:#F60;background-color:transparent;width:auto;padding:0;border:none}
+.feiwa-ss-consult-form .counter em.exceeded{color:red}
+.feiwa-ss-consult-form .code{background-color:#FFF;width:114px;height:34px;border:solid 1px #555;position:absolute;z-index:9;top:-40px;left:-15px;display:none;box-shadow:0 3px 3px 0 rgba(0,0,0,.2)}
+.feiwa-ss-consult-form .code .arrow{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -40px 0;display:block;width:14px;height:7px;position:absolute;left:21px;bottom:-7px}
+.feiwa-ss-consult-form .code img{width:90px;height:26px;position:absolute;z-index:1;top:4px;left:4px}
+.feiwa-ss-consult-form .code .close{display:block;width:10px;height:10px;padding:1px;position:absolute;z-index:1;top:4px;right:4px}
+.feiwa-ss-consult-form .code .change:hover,.feiwa-ss-consult-form .code .close:hover{background-color:#CCC;border-radius:5px;-webkit-border-radius:5px}
+.feiwa-ss-consult-form .code .close i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -40px -7px;display:block;width:10px;height:10px;opacity:.5}
+.feiwa-ss-consult-form .code .change{display:block;width:10px;height:10px;padding:1px;position:absolute;z-index:1;bottom:4px;right:4px}
+.feiwa-ss-consult-form .code .change i{background:url(../images/mall/2014_ncs_public_img.png) no-repeat -50px -7px;display:block;width:10px;height:10px;opacity:.5}
+.feiwa-ss-consult-form .code .change:hover i,.feiwa-ss-consult-form .code .close:hover i{opacity:1}
+.feiwa-ss-recommend{clear:both;margin:10px 0;border:1px solid #ededed;background:#fff}
+.feiwa-ss-recommend .title{margin:20px 25px 0;border-left:2px solid #f55;padding:0 0 1px 13px}
+.feiwa-ss-recommend .title h4{height:30px;font:14px/30px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";color:#333}
+.feiwa-ss-recommend .content{overflow:hidden}
+.feiwa-ss-recommend .content ul{font-size:0;white-space:nowrap;padding:0 0 5px 0;margin-left:-5px}
+.feiwa-ss-recommend .content ul li{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;padding:20px 22px 22px;width:150px}
+.feiwa-ss-recommend .content ul li dl{text-align:center;width:100%;padding-top:150px;margin:0 auto;position:relative;z-index:1}
+.feiwa-ss-recommend .content ul li .goods-pic{background:#FFF;width:150px;height:150px;margin-left:-75px;position:absolute;top:0;left:50%}
+.feiwa-ss-recommend .content ul li .goods-pic a{background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:150px;height:150px;overflow:hidden}
+.feiwa-ss-recommend .content ul li .goods-pic a img{max-width:150px;max-height:150px;margin-top:expression(150-this.height/2)}
+.feiwa-ss-recommend .content ul li .goods-name{line-height:18px;white-space:pre-wrap;height:36px;width:90%;overflow:hidden;margin:8px auto}
+.feiwa-ss-recommend .content ul li .goods-name em{color:#ff5370}
+.feiwa-ss-recommend .content ul li .goods-price{font-weight:600;color:#ff5370;height:20px;font-size:18px}
+.feiwa-look-look .content{overflow:hidden}
+.feiwa-look-look .content ul{font-size:0}
+.feiwa-look-look .content ul li{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;padding:20px 22px 22px;width:163px;border-bottom:dotted 1px #eee}
+.feiwa-look-look .content ul li dl{text-align:center;width:100%;padding-top:150px;margin:0 auto;position:relative;z-index:1}
+.feiwa-look-look .content ul li .goods-pic{background:#FFF;width:150px;height:150px;margin-left:-75px;position:absolute;top:0;left:50%}
+.feiwa-look-look .content ul li .goods-pic a{background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:150px;height:150px;overflow:hidden}
+.feiwa-look-look .content ul li .goods-pic a img{max-width:150px;max-height:150px;margin-top:expression(150-this.height/2)}
+.feiwa-look-look .content ul li .goods-name{line-height:18px;white-space:pre-wrap;height:36px;width:90%;overflow:hidden;margin:8px auto}
+.feiwa-look-look .content ul li .goods-name em{color:#ff5370}
+.feiwa-look-look .content ul li .goods-price{font-weight:600;color:#ff5370;height:20px;font-size:18px}
+.feiwa-ss-norecord{color:#999;text-align:center;height:70px;line-height:70px;padding:15px 0;background-color:#FFF;border:none!important}
+.feiwa-ss-sidebar-container{margin-bottom:10px;background:#fff}
+.feiwa-ss-sidebar-container .title{height:32px;padding:0 10px;border:solid #eee;border-width:1px 1px 0 1px}
+.feiwa-ss-sidebar-container .title h4{font:14px/32px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";color:#333}
+.feiwa-ss-sidebar-container .content{border:solid 1px #eee;background:#FFF; padding: 10px;}
+.feiwa-ss-info{width:168px; border:1px solid #eee ; padding: 0 25px 25px 25px; margin-bottom: 20px;}
+.feiwa-ss-info .zixun { display: block;  margin: 0 auto;  line-height: 28px;  text-align: center; color: #ff5370; border: 1px solid #ff5370;  width: 96px;  border-radius: 2px;  background-position: 11px -255px;}
+.feiwa-ss-info .zxtxt { padding: 13px 0 1px; text-align: center;}
+.feiwa-ss-info .hosarea{display: inline-block;}
+.feiwa-ss-info .joinins a{ color: #ff5370;}
+.feiwa-ss-info .joinins .map-box{ position: absolute; z-index: 10;}
+.feiwa-ss-info .joinins:hover .feiwa-info-map{display: block;}
+.feiwa-ss-info .joinins .feiwa-info-map{display: none;}
+.feiwa-ss-info .pink {color: #ff5c77;text-align: center;}
+.feiwa-ss-info .t-info{padding:23px 0 5px ;}
+.feiwa-ss-info .t-info > p.c999{padding-bottom: 4px; color:#999 ; text-align: left;}
+.feiwa-ss-info .t-info > p.c666{padding-bottom: 4px; color:#666 ; text-align: left;}
+.feiwa-ss-info .title-l{background-color:#FFF;padding:23px 10px;border-bottom: 1px dotted #e7e7e7;border-top: 1px dotted #e7e7e7;margin: 22px 0 28px;}
+.feiwa-ss-info .title-l a {}
+.feiwa-ss-info .title-l .store_img {width: 50px; height: 50px; overflow: hidden;  border: 1px solid #e5e5e5;  border-radius: 50%; margin: 0 auto 8px; display: block;}
+.feiwa-ss-info .title-l .store_name {  color: #666; font-size: 14px; text-align: center; padding-bottom: 1px;display: block;}
+.feiwa-ss-info .title-l .sc{color: #ff5370; font-size: 12px; text-align: center;display: block;padding-bottom: 1px;}
+.feiwa-ss-info .title-l .store_img img{width: 100%;}
+.feiwa-ss-info .title-l h4{font:600 14px/20px "Microsoft Yahei";color:#555}
+.feiwa-ss-info .content dl{font-size:0;display:block;padding:4px 0;font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"!important; text-align: center;}
+.feiwa-ss-info .content dl dt{font-size:12px;color:#999;vertical-align:top;letter-spacing:normal;word-spacing:normal;text-align:right;display:inline-block;width:68px}
+.feiwa-ss-info .content dl dd{font-size:12px;color:#333;vertical-align:top;letter-spacing:normal;word-spacing:normal;white-space:nowrap;text-overflow:ellipsis;display:inline-block;width:130px;overflow:hidden;zoom:1}
+.feiwa-ss-info .all-rate .rating{background:url(../images/2014grate.png) no-repeat 0 -18px;vertical-align:middle;display:inline-block;width:79px;height:17px}
+.feiwa-ss-info .all-rate .rating span{background:url(../images/2014grate.png) no-repeat 100% 0;display:block;height:18px}
+.feiwa-ss-info .all-rate em{color:#DA542E;font-weight:600;vertical-align:middle;margin-right:2px}
+.feiwa-ss-info .content .detail-rate{clear:both}
+.feiwa-ss-info .store-name{font-weight:600;color:#555;height:20px;padding:6px 9px;border-bottom:solid 1px #eee}
+.feiwa-s-main-rate{color:#999;margin:0 auto}
+.feiwa-s-main-rate dl{color: #666;  text-align: left;  margin-top: -6px;  width: 110%;}
+.feiwa-s-main-rate dl dt { font-size: 12px;  color: #666;  vertical-align: top;  letter-spacing: normal;   word-spacing: normal;  display: inline-block; }
+.feiwa-s-main-rate  dl dd {  font-size: 12px;  color: #333;  vertical-align: top; letter-spacing: normal;word-spacing: normal;  white-space: nowrap;  text-overflow: ellipsis; display: inline-block; width: 120px; overflow: hidden;zoom: 1;}
+.feiwa-s-main-rate ul{font-size:0;padding:5px 0}
+.feiwa-s-main-rate li{font-size:12px;color:#333;vertical-align:top;text-align:center;display:inline-block;width:33.333%;height:32px}
+.feiwa-s-main-rate li h5{color:#777;line-height:16px;height:16px}
+.feiwa-s-main-rate li div{line-height:16px;height:16px}
+.feiwa-s-main-rate .credit{color:#555;display:inline-block;width:35px;margin-left:4px}
+.feiwa-s-main-rate li div i{background:url(../images/2014grate.png) no-repeat;vertical-align:middle;display:inline-block;width:16px;height:16px}
+.feiwa-s-main-rate .high{color:#DA542E}
+.feiwa-s-main-rate .high i{background-position:0 -40px}
+.feiwa-s-main-rate .equal{color:#DA542E}
+.feiwa-s-main-rate .equal i{background-position:-32px -40px}
+.feiwa-s-main-rate .low{color:#28B779}
+.feiwa-s-main-rate .low i{background-position:-16px -40px}
+.feiwa-ss-info .btns{font-size:0;text-align:center;padding-bottom:12px;border-bottom:solid 1px #eee}
+.feiwa-ss-info .btns a{font-size:12px;line-height:20px;color:#333;background-color:#F5F5F5;vertical-align:top;text-align:center;display:inline-block;height:20px;padding:3px 10px;border:solid 1px #CCC}
+.feiwa-ss-info .btns a.goto{color:#FFF;background-color:#333;border-color:#333;margin-right:10px}
+.feiwa-ss-info .btns a span{line-height:20px;color:#999;margin-left:3px}
+.feiwa-ss-info .btns a:hover{text-decoration:none}
+.feiwa-ss-info .no-border{border:0!important;padding-bottom:0!important}
+.feiwa-ss-message-bar .default{padding:9px;border-top:solid 1px #eee;margin-top:-1px}
+.feiwa-ss-message-bar .default h5{line-height:20px;font-weight:600;display:inline-block; color: #ff5370;}
+.feiwa-ss-message-bar .default span{color:#555;height:20px}
+.feiwa-ss-message-bar dl{width:338px;padding:9px;overflow:hidden}
+.feiwa-ss-message-bar dt{line-height:30px;color:#333;border:1px solid #f5f5f5;padding-left:10px;padding-right:50px;display:block}
+.feiwa-ss-message-bar dd{color:#555;padding:4px 0!important;width:30%;vertical-align:top!important;letter-spacing:normal!important;word-spacing:normal!important;display:inline-block!important}
+.feiwa-ss-message-bar dd span{line-height:22px;margin:0 6px 0 0}
+.feiwa-ss-message-bar dd img{vertical-align:middle}
+.feiwa-ss-message-bar dd p{line-height:20px}
+.feiwa-ss-message-bar dl.workingtime dd{width:100%!important}
+.feiwa-ss-search{display:block;padding:5px;border-bottom:dotted 1px #eee}
+.feiwa-ss-class-bar p{background-color:#fff;border-bottom:solid 1px #E7E7E7;height:28px}
+.feiwa-ss-class-bar p span{text-align:center;display:inline-block;width:24%;height:20px;padding:4px 0}
+.feiwa-ss-class-bar p a{line-height:16px;color:#777;padding:2px}
+.feiwa-ss-class-bar p a:hover{text-decoration:none;color:#FFF;background-color:#999;border-radius:4px}
+.feiwa-ss-submenu{width:170px;margin:5px 13px 5px 15px}
+.feiwa-ss-submenu li{font-weight:600;text-align:left;margin:6px 0;clear:both}
+.feiwa-ss-submenu li a{line-height:20px;word-wrap:break-word;display:inline-block;max-width:135px;color:#333;overflow:hidden}
+.feiwa-ss-submenu li ul{width:150;margin:5px 0 5px 20px}
+.feiwa-ss-submenu li ul li{line-height:20px;font-weight:400;text-align:left;margin:4px 0}
+.ico-block,.ico-none,.ico-sub{display:inline-block;float:left;cursor:default}
+.ico-block,.ico-none{width:10px;height:10px;text-align:center;margin:5px 10px 5px 0;border-radius:2px}
+.ico-block em,.ico-none em{font-size:12px;line-height:10px!important;height:10px}
+.ico-sub{font-size:0;line-height:0;width:3px;height:3px;margin:8px 6px 8px 0;border-radius:3px}
+.feiwa-ss-mall-category-list{font-size:0;padding:4px 0}
+.feiwa-ss-mall-category-list li{font-size:12px;text-overflow:ellipsis;white-space:nowrap;display:inline-block;width:40%;padding:2px 5%;overflow:hidden}
+.feiwa-ss-mall-brand-list{font-size:0;padding:4px 0}
+.feiwa-ss-mall-brand-list li{font-size:12px;text-overflow:ellipsis;white-space:nowrap;display:inline-block;width:28.33%;padding:4px 2% 4px 3%;overflow:hidden}
+.feiwa-ss-mall-booth-list{padding:9px;overflow:hidden}
+.feiwa-ss-mall-booth-list li{display:block;margin-bottom:5px;padding-top:5px;position:relative;z-index:1}
+.feiwa-ss-mall-booth-list .goods-pic{width:120px;height:120px;padding:0;margin:0 auto}
+.feiwa-ss-mall-booth-list .goods-pic a{line-height:0;text-align:center;vertical-align:middle;display:table-cell;width:120px;height:120px;overflow:hidden}
+.feiwa-ss-mall-booth-list .goods-pic img{max-width:120px;max-height:120px;margin-top:expression( 120-this.height/2)}
+.feiwa-ss-mall-booth-list .goods-name{max-height:36px;overflow:hidden}
+.feiwa-ss-mall-booth-list .goods-price{font-weight:600;color:#F32613;text-align:center;padding:0}
+.feiwa-ss-mall-booth-list li p{width:80px;margin:0 10px;float:left;display:inline}
+.feiwa-ss-mall-booth-list li p a{display:block;width:78px;height:78px;overflow:hidden;border:1px solid #bbb}
+.feiwa-ss-mall-booth-list li p a:hover{border:1px solid #999}
+.feiwa-ss-mall-booth-list h3{width:90px;float:right}
+.feiwa-ss-mall-booth-list h3 a{display:block;width:90px;height:48px;line-height:16px;overflow:hidden;font-weight:400;color:#666;text-decoration:none;font-size:12px;margin-bottom:10px}
+.feiwa-ss-mall-booth-list h3 a:hover{text-decoration:underline;color:#f60}
+.feiwa-ss-mall-booth-list h3 span{display:block;color:#fe5504;font-weight:700;font-size:14px}
+.feiwa-ss-top-tab{padding:0 15px; display: inline-block;}
+.feiwa-ss-top-tab li{float:left}
+.feiwa-ss-top-tab li a{float:left;width:84px;height:33px;border-bottom:1px solid #eee;font:14px/33px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";text-align:center;cursor:pointer}
+.feiwa-ss-top-tab li.current a{border-bottom:1px solid #f60}
+.feiwa-ss-top-bar .hide{display:none}
+.feiwa-ss-top-panel{display:block;margin:10px}
+.feiwa-ss-top-panel li{display:block;clear:both;margin-top:-1px;padding: 0 0 11px;margin-bottom:10px;  border-bottom: 1px dotted #f2f2f2;}
+.feiwa-ss-top-panel li:hover{background-color:#F7F7F7;z-index:1}
+.feiwa-ss-top-panel dl{display:block;height:75px;position:relative;z-index:1}
+.feiwa-ss-top-panel dl:hover{z-index:9}
+.feiwa-ss-top-panel dt{display:block;width:120px;position:absolute; max-height: 35px; overflow: hidden;  margin-top: -3px;  line-height: 18px; font-size: 14px;z-index:1;top:0;left:70px}
+.feiwa-ss-top-panel dd.goods-pic{background-color:#FFF;display:block;width:62px;height:62px;position:absolute;z-index:999;top:0;left:0}
+.feiwa-ss-top-panel dd.goods-pic a{border:solid 1px #E7E7E7;width:60px;height:60px;display:inline-block}
+.feiwa-ss-top-panel dd.goods-pic p{background-color:#FFF;display:none;width:100px;height:100px;padding:4px;border:solid 1px #F60;position:absolute;z-index:2;top:-10px;left:58px;box-shadow:2px 2px 0 rgba(0,0,0,.2)}
+.feiwa-ss-top-panel dd.goods-pic p big{font-size:0;line-height:0;width:0;height:0;display:block;border:4px solid;border-color:transparent #F60 transparent transparent;position:absolute;z-index:2;top:18px;left:-9px}
+.feiwa-ss-top-panel dd.goods-pic p small{font-size:0;line-height:0;width:0;height:0;display:block;border:4px solid;border-color:transparent #FFF transparent transparent;position:absolute;z-index:2;top:18px;left:-8px}
+.feiwa-ss-top-panel dd.goods-pic:hover p{display:block}
+.feiwa-ss-top-panel dd.goods-pic:hover a{border-color:#F60}
+.feiwa-ss-top-panel dd.price{line-height:16px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:110px;height:16px;position:absolute;z-index:1;top:38px;left:70px;font:700 15px/22px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";color:#ff5370}
+.feiwa-ss-top-panel dd.price i{ font-size:12px ;}
+.feiwa-ss-top-panel dd.selled{line-height:16px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:100px;height:16px;position:absolute;z-index:1;top:60px;left:70px;font:12px/18px arial}
+.feiwa-ss-top-panel dd.selled strong{margin:0 3px;color:#c97;font-weight:700}
+.feiwa-ss-top-panel dd.collection{line-height:16px;float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:100px;height:16px;position:absolute;z-index:1;top:60px;left:70px;font:12px/18px arial}
+.feiwa-ss-top-panel dd.collection strong{margin:0 3px}
+.feiwa-ss-top-bar p{width:130px;margin:10px auto}
+.feiwa-ss-top-bar p a{line-height:38px;color:#333;text-align:center;width:128px;height:38px;border:solid 1px #fafafa;border-radius:5px;display:inline-block}
+.feiwa-ss-top-bar p a:hover{text-decoration:none;color:#777}
+.feiwa-ss-comment-goods{width:180px;margin:10px auto}
+.feiwa-ss-comment-goods .goods-name{font:700 12px/18px "Microsoft Yahei";color:#AAA;width:100%;height:36px;overflow:hidden}
+.feiwa-ss-comment-goods .goods-pic{width:160px;height:160px;margin:5px auto}
+.feiwa-ss-comment-goods .goods-pic a{line-height:0;background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:160px;height:160px;overflow:hidden}
+.feiwa-ss-comment-goods .goods-pic img{max-width:160px;max-height:160px;margin-top:expression(160-this.height/2)}
+.raty{font-size:0;line-height:0;vertical-align:middle;display:inline-block;zoom:1}
+.raty img{letter-spacing:normal;word-spacing:normal;display:inline-block;width:16px;height:16px;margin:2px 0}
+.delivery-map{background-color:#FFF;text-align:center;width:760px;margin:0 auto;border-radius:10px}
+.delivery-map img{margin:10px}
+.feiwa-ownmall{display:block;margin:5px auto;height:36px;color:#F30;font:700 12px "微软雅黑";line-height:36px;text-align:center}
+
+.feiwa-look-slider{width: 115px;  border: 1px solid #eee;  padding: 0 25px;  min-height: 500px;    overflow: hidden;}
+.feiwa-look-slider .picScroll-top .slider_title{  position: relative;  line-height: 50px;  font-size: 12px;  color: #666; font-weight: 400; text-align: center;}
+.feiwa-look-slider .picScroll-top .slider_title h3 {  position: relative;  z-index: 2;  display: inline-block;  background: #fff;  padding: 0 25px;}
+.feiwa-look-slider .picScroll-top .slider_title span { position: absolute;  z-index: 1; left: 0; right: 0; top: 25px;  height: 1px;  background: #f2f2f2;}
+.feiwa-look-slider .picScroll-top .hd{padding-top: 10px;text-align: center;}
+.feiwa-look-slider .picScroll-top .bd{height: 410px; overflow: hidden;}
+.feiwa-look-slider .picScroll-top .bd ul li{ font-size: 12px;  vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; width: 100%;   }
+.feiwa-look-slider .picScroll-top .bd ul li dl {  text-align: center;  width: 100%;padding:10px 0 ;margin: 0 auto; position: relative; z-index: 1;}
+.feiwa-look-slider .picScroll-top .bd ul li .goods-pic a{background-color:#FFF;text-align:center;vertical-align:middle;display:table-cell;width:115px;height:115px;overflow:hidden}
+.feiwa-look-slider .picScroll-top .bd ul li .goods-pic a img{max-width:115px;max-height:115px;margin-top:expression(115-this.height/2)}
+.feiwa-look-slider .picScroll-top .bd ul li .goods-price{color:#333;height:20px;font-size:12px;position: absolute; bottom:10px; width: 100%; background: rgba(255,255,255,.9); filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#9FFFFFFF, endcolorstr=#9FFFFFFF);}
+
+.feiwa-look-slider .picScroll-top .hd a { display: inline-block; margin: 0 10px;  text-indent: -9999px; overflow: hidden;}
+.feiwa-look-slider .picScroll-top .hd .next,.feiwa-look-slider .picScroll-top .hd .prev { width: 28px; height: 15px; background-image: url(../images/__sprite.png);}
+.feiwa-look-slider .picScroll-top .hd .next{  background-position: -28px 0;}
+.feiwa-look-slider .picScroll-top .hd .prev{  background-position: 0 0;}
+
+.store_vip_top{ width:600px ; display: block; background-color: #F15C18;padding: 5px 15px;color: #FFF;}
+.store_vip_top em{font-size: 14px;  font-weight: 600; color: #FFFF00;}

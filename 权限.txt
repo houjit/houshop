@@ -1,0 +1,22 @@
+权限
+
+http://域名/
+网站会员 member 123456 
+
+
+http://域名/admin/
+超管
+admin
+l&*ddf765
+管理员
+adminy
+adminy
+
+
+商家账号
+http://域名/mall/index.php?app=seller_login
+seller 123456
+adminy adminy
+
+http://域名/chain/index.php?app=login&feiwa=index
+门店账号 seller_dian1 seller_dian1 

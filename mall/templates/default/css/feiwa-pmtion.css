@@ -1,0 +1,616 @@
+.new-user-defined ul{display: inline-block; padding-bottom: 15px;width:1200px ;}
+.new-user-defined ul li.p2{float: left;}
+.new-user-defined ul li.p3{float: right;}
+.new-user-defined ul li img{width: 590px;}
+.s5-prom-wp{padding-bottom: 50px; background:#f6f6f6 ;}
+.s5-prom-wp .feiwa-left{position: relative; padding-right: 200px; display: table;width: 688px;}
+.s5-prom-wp ._new_today_new_new_today_new{width: 688px; float: left;}
+.s5-prom-wp .feiwa-right{width: 295px;}
+.s5-prom-wp .feiwa-left .s5-menu{    float: right;
+    margin-right: -200px; padding:50px 20px 50px 0;  text-align: center;}
+.s5-prom-wp .feiwa-left .s5-menu ul{min-width:110px ; padding: 15px;background:#fff ;}
+.s5-prom-wp .feiwa-left .s5-menu ul li a{line-height: 30px;}
+.s5-prom-wp .feiwa-left .s5-menu ul li a.selected{color: #FF0033;}
+.s5-prom-wp .feiwa-left .ml-tit {
+    position: relative;
+    height: 47px;
+    margin: 16px 0 12px 0;
+    text-align: center;
+}.s5-prom-wp .feiwa-left .ml-tit img {
+    width: 688px;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}.s5-prom-wp .feiwa-left  .ml-item {
+    position: relative;
+    height: 190px;
+    border: 1px solid #dddddd;
+    margin-bottom: 14px;
+    zoom: 1;
+}.s5-prom-wp:after, .ml-item {
+    content: '\20';
+    display: block;
+    clear: both;
+}.s5-prom-wp .feiwa-left  .ml-item .mli-img {
+    position: relative;
+    margin-left: 206px;
+}.s5-prom-wp .feiwa-left .countdown-tag {
+    padding-left: 30px;
+    background: url(../images/tick_bg.png) repeat-x;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    height: 23px;
+}.s5-prom-wp .feiwa-left .countdown-tag .tick-logo {
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background: url(../images/tick.png) no-repeat center center;
+    background-size: 14px 14px;
+    margin-top: -7px;
+}.s5-prom-wp .feiwa-left .countdown-tag p {
+    font-size: 12px;
+    line-height: 23px;
+    color: #fff;
+}.s5-prom-wp .feiwa-left .arrow-circle {
+    position: absolute;
+    height: 23px;
+    width: 14px;
+    background: url(../images/arrowcircle.png) no-repeat;
+    background-size: 14px 100%;
+    right: -14px;
+    top: 0;
+}.s5-prom-wp .feiwa-left .act-msg {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}.s5-prom-wp .feiwa-left .act-mg-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    z-index: 2;
+}.s5-prom-wp .feiwa-left .act-msg .txt {
+    padding-left: 12px;
+    line-height: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    color: #fff;
+} .s5-prom-wp .feiwa-left .ml-item .mli-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 205px;
+    height: 190px;
+    background: #fff;
+    text-align: center;
+}.s5-prom-wp .feiwa-left .ml-item .mli-info .brand-logo {
+    overflow: hidden;
+    width: 150px;
+    height: 35px;
+    margin: 30px auto 15px;
+}.s5-prom-wp .feiwa-left .mli-short-line {
+    font-size: 0;
+    height: 1px;
+    width: 36px;
+    background-color: #cccccc;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}.s5-prom-wp .feiwa-left  .ml-item .mli-info .brand-active {
+    overflow: hidden;
+    width: 205px;
+    font: 400 12px/14px arial,'\5fae\8f6f\96c5\9ed1';
+    color: #666;
+}.s5-prom-wp .feiwa-left  .ml-item .mli-info .brand-active a {
+    display: block;
+    overflow: hidden;
+    width: 205px;
+    height: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #484848;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-weight: bold;
+}.s5-prom-wp .feiwa-left  .ml-item .mli-info .brand-active span {
+    color: #B30004;
+    display: block;
+    cursor: default;
+    height: 14px;
+    font-size: 14px;
+    line-height: 1;
+} .s5-prom-wp .feiwa-left .ml-item .mli-info .brand-rebate {
+    width: 205px;
+    cursor: default;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    line-height: 1;
+}
+.s5-prom-wp .feiwa-right .sidebar {
+    width: 295px;
+    padding-top: 20px
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs {
+    width: 295px;
+    /*margin-bottom: 20px;*/
+    zoom: 1
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt {
+    width: 293px;
+    height: 40px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-right-color: #e1e1e1;
+    border-left-color: #c81623;
+    margin-bottom: 10px;
+    zoom: 1
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt li {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 38px;
+    /*padding: 3px 0 1px;*/
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background: #fff;
+    text-align: center;
+    font: 400 12px/17px verdana,'\5fae\8f6f\96c5\9ed1';
+    cursor: pointer;
+    color: #bbb
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt li.width100{
+    width: 100%;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt li span {
+    display: block;
+    line-height: 38px;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt li b {
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    display: none;
+    width: 11px;
+    height: 6px;
+    margin-left: -5px;
+    background: url(../images/20160612001.png) no-repeat
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt .fore3 {
+    background-image: none
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt .now {
+    border-color: #c81623;
+    /*margin-left: -1px;*/
+    background: #c81623;
+    color: #fff
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt .now b {
+    display: block
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc {
+    width: 293px;
+    border: 1px solid #e1e1e1;
+    /*border-top: 0;*/
+    zoom: 1;
+    overflow: hidden;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc a.no_detail{
+    display: block;
+    width: 100%;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc a.no_detail img{
+    display: block;
+    width: 100%;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tit {
+    width: 294px;
+    height: 33px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+    font: 400 15px/33px verdana,'\5fae\8f6f\96c5\9ed1';
+    color: #999;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tit1 {
+    background: #f4f6e8
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tit2 {
+    background: #f4e8f4
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list {
+    background: #fff;
+    zoom: 1;
+    width: 273px;
+    padding: 0 10px;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li.single {
+    position: relative;
+    width: 138px;
+    height: 99px;
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    /*float: left;*/
+    overflow: hidden;
+    padding-left: 136px;
+}.tm-list li.brand{
+    position: relative;
+    height: 132px;
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    /*float: left;*/
+    overflow: hidden;
+    padding: 5px 0 5px 0;
+}
+.tm-list .brand-detail{
+    height: 132px;
+    width: 96px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: #fff;
+}
+.tm-list .brand-detail-inner{
+    height: 80px;
+    width: 96px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -40px;
+}
+.tm-list .brand-detail-inner img{
+    display: block;
+    width: 80px;
+    height: 19px;
+    margin: 0 auto;
+}
+.tm-list .brand-name{
+    font-size: 12px;
+    color: #222;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 8px 4px 0 4px;
+}
+.tm-list .tl-brand-img{
+    width: 100%;
+    height: 100%;
+}
+.tm-list .prd-img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    margin-top: -37px;
+}
+.tm-list .brand-num{
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    margin-bottom: 9px;
+    height: 15px;
+    display: block;
+    background-image: url(../img/num-title.png);
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+}.brand-num1{
+    background-position: center 0;
+}
+.brand-num2{
+    background-position: center -17px;
+}
+.brand-num3{
+    background-position: center -34px;
+}
+.brand-num4{
+    background-position: center -51px;
+}
+.brand-num5{
+    background-position: center -68px;
+}
+.brand-num6{
+    background-position: center -85px;
+}
+.brand-num7{
+    background-position: center -102px;
+}
+.brand-num8{
+    background-position: center -119px;
+}
+.brand-num9{
+    background-position: center -136px;
+}
+.brand-num10{
+    background-position: center -153px;
+}
+.tm-list .num{
+    position: absolute;
+    width: 35px;
+    height: 23px;
+    background-image: url(../images/num-title.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 20px;
+}
+.num1{
+    background-position: 0 0;
+}
+.num2{
+    background-position: 0 -30px;
+}
+.num3{
+    background-position: 0 -60px;
+}
+.num4{
+    background-position: 0 -90px;
+}
+.num5{
+    background-position: 0 -120px;
+}
+.num6{
+    background-position: 0 -150px;
+}
+.num7{
+    background-position: 0 -180px;
+}
+.num8{
+    background-position: 0 -210px;
+}
+.num9{
+    background-position: 0 -240px;
+}
+.num10{
+    background-position: 0 -270px;
+}
+.tl-detail{
+    text-align: left;
+    line-height: 1;
+}
+.tl-detail h2{
+    font-size: 12px;
+    color: #222;
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+.tl-detail .tl-des{
+    font-size: 12px;
+    color: #222;
+    margin-bottom: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.tl-detail .tl-yen{
+    font-size: 12px;
+    color: #c81624;
+    margin-bottom: 7px;
+}
+.tl-detail .tl-pnum{
+    font-size: 12px;
+    color: #999999;
+}
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li a {
+    text-decoration: none;
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li a:hover {
+    /*background: #000;
+    opacity: .05;
+    filter: alpha(opacity=5)*/
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li .tl-logo {
+    display: block;
+    width: 80px;
+    height: 33px;
+    margin: 0 auto 6px;
+    padding-top: 20px
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li .tl-rebate {
+    font: 400 12px/1em '\5fae\8f6f\96c5\9ed1';
+    color: #666
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list li .tl-rebate strong {
+    color: #b30004
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list .fore {
+    border-top: 0
+}
+
+.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc .tm-list:after,.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mc:after,.s5-prom-wp .feiwa-right .sidebar .tabs .tab-mt:after,.s5-prom-wp .feiwa-right .sidebar .tabs:after {
+    content: '\20';
+    display: block;
+    clear: both
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying {
+    margin-bottom: 20px;
+    zoom: 1
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-tit {
+    position: relative;
+    height: 24px;
+    margin-bottom: 15px
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-tit .bt-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    overflow: hidden;
+    width: 295px;
+    height: 2px;
+    background: #bebebe;
+    font-size: 0
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-tit h3 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    margin-left: -50px;
+    background: url(//misc.360buyimg.com/shangou/skin/base/img/bg_repeat.png) repeat;
+    text-align: center;
+    font: 400 18px/22px '\5fae\8f6f\96c5\9ed1';
+    color: #714a1f
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con {
+    width: 255px;
+    padding: 0 20px;
+    background: #fff
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li {
+    position: relative;
+    width: 255px;
+    padding: 20px 0;
+    border-top: 1px dotted #eee;
+    text-align: center;
+    zoom: 1
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li .p-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li .p-name {
+    overflow: hidden;
+    width: 255px;
+    height: 14px;
+    margin-bottom: 10px;
+    font: 400 12px/1.2em verdana,'\5fae\8f6f\96c5\9ed1';
+    color: #666
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li .p-price {
+    width: 255px;
+    height: 1em
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li .p-price strong {
+    font: 400 16px/1em tahoma,'\5fae\8f6f\96c5\9ed1';
+    color: #b30004
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li a.p-link {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 295px;
+    height: 186px;
+    cursor: pointer
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li a.p-link:hover {
+    background: #000;
+    opacity: .05;
+    filter: alpha(opacity=5)
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con li:after {
+    content: '\20';
+    display: block;
+    clear: both
+}
+
+.s5-prom-wp .feiwa-right .sidebar .buying .b-con .fore {
+    border-top: 0
+}
+
+.s5-prom-wp .feiwa-right .sidebar .custom {
+    margin-bottom: 16px;
+    zoom: 1
+}
+
+.s5-prom-wp .feiwa-right .sidebar .custom .c-tit {
+    position: relative;
+    height: 24px;
+    margin-bottom: 15px
+}
+
+.s5-prom-wp .feiwa-right .sidebar .custom .c-tit .ct-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    overflow: hidden;
+    width: 295px;
+    height: 2px;
+    background: #bebebe;
+    font-size: 0
+}
+
+.s5-prom-wp .feiwa-right .sidebar .custom .c-tit h3 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    margin-left: -50px;
+    background: url(//misc.360buyimg.com/shangou/skin/base/img/bg_repeat.png) repeat;
+    text-align: center;
+    font: 400 18px/22px '\5fae\8f6f\96c5\9ed1';
+    color: #714a1f
+}
+
+.s5-prom-wp .feiwa-right .sidebar .custom .c-con {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    padding: 10px;
+    background: url(../img/frame.jpg) no-repeat left top;
+    background-size: 295px 295px;
+}
